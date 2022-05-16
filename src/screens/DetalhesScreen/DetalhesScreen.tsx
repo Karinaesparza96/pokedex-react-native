@@ -4,10 +4,10 @@ import { View } from "react-native";
 import pokeballBackgroundImage from "../../global/assets/Pokeball-bg.png";
 import dotsCardImage from "../../global/assets/Pattern.png";
 import backImage from "../../global/assets/Back.png";
-
+import {CardPokemonProps} from "../../components/CardPokemon";
 import * as S from "./DetalhesScreen.styles";
 
-export function DetalhesScreen() {
+export function DetalhesScreen(param: CardPokemonProps) {
   return (
     <S.Container>
       <S.Header>
